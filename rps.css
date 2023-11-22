@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.players-score-layout{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 10px;
+} 
+.player-score{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+#resDiv{
+    padding: 10px;
+    border: 4px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 20px;
+}
+

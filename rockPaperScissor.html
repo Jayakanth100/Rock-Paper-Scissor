@@ -4,9 +4,29 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src = "./rockPaper.js"></script>
+        <script src = "./rockPaper.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="./rps.css">
     </head>
-    <body>
-        <h1>ROCK PAPER SCISSOR</h1> 
+
+    <body> 
+        <h1>ROCK PAPER SCISSOR</h1>
+        <div class = players-score-layout>
+            <div class = "player-score">
+                <h2 class = "players">Player:</h2>
+                <h2 id = "player"></h3>
+            </div>
+            <div class = "player-score">
+                <h2 class = "players">Computer:</h2>
+                <h2 id = "computer"></h2>
+            </div>
+        </div>
+        <div class = "btns">
+            <input type="button" class = "btn" id = "rock" value="rock">
+            <input type="button" class = "btn" id = "paper" value="paper">
+            <input type="button" class = "btn" id = "scissors" value="scissors">
+        </div>
+       <div id = "resDiv">
+             
+       </div>
     </body>
 </html>
